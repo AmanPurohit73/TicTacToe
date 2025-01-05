@@ -7,7 +7,7 @@
 
 
 .wrapper {
-    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -20,8 +20,8 @@
     top: 3rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(243, 238, 238, 0.25);
-    border: 2px solid rgba(255,255,255,0.25);
+    background-color: rgba(243, 238, 238, 0.75); 
+    border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 1rem;
     padding: 0.5rem 3rem;
     text-align: center;
@@ -45,11 +45,12 @@
     width: 100%;
     aspect-ratio: 1/1;
     font-size: 3rem;
-    color : white;
+    color : #9b59b6;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .box1 , .box2 , .box4 , .box5 {
@@ -96,4 +97,5 @@
 
 .win {
     background-color: rgba(0, 255, 0, 0.3);
+    border-radius: 0.5rem;
 }
