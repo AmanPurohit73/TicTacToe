@@ -1,10 +1,9 @@
-Tic-Tac-Toe Game
+#Tic-Tac-Toe Game
 https://tic-tac-toe-basics.vercel.app/
 
 A fun and interactive browser-based Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
-Features:-
-
+#Features:-
 Dynamic player turns with real-time updates.
 
 Visual win highlights for the winner.
